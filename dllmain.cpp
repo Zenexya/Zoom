@@ -34,6 +34,8 @@ int main() {
 	print("Injected");
 }
 
+// Credits to fishy for the code below
+
 BOOL APIENTRY DllMain(HMODULE hModule,
 	DWORD  ul_reason_for_call,
 	LPVOID lpReserved
@@ -47,3 +49,5 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 	}
 	return TRUE;
 }
+
+// Credits to fishy for the code ^^
